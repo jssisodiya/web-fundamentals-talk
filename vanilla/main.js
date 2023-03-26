@@ -11,6 +11,17 @@ form.addEventListener("submit", (event) => {
   if (username === "" || password === "") {
     alert("Please fill out all fields");
   } else {
+    // get button by type button
+    // const submitButton = document.querySelector("#submit-button");
+
+    // submitButton.value = "Please wait...";
+
+    // setTimeout(() => {
+    //   alert("Form submitted successfully!");
+    // }, 2000);
+
+    // Send the data to an API
+
     alert("Form submitted successfully!");
   }
 });
