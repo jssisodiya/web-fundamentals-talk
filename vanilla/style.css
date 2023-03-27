@@ -26,3 +26,8 @@ form {
     border: none;
     cursor: pointer;
   }
+  
+  .error {
+    color: red;
+    display: none;
+  }

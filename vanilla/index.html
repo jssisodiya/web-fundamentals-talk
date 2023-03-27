@@ -9,10 +9,12 @@
   <body>
     <form>
       <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required />
+      <input type="text" id="username" name="username" />
+      <span class="error" id="error-username">This is required</span>
 
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required />
+      <input type="password" id="password" name="password" />
+      <span class="error" id="error-password">This is required</span>
 
       <input type="submit" id="submit-button" value="Submit" />
     </form>
